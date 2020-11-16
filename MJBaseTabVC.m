@@ -8,7 +8,6 @@
 #import "MJBaseTabVC.h"
 #import "WRNavigationBar.h"
 #import "DemoTabVC.h"
-#import "ViewController.h"
 @interface MJBaseTabVC ()<UITableViewDelegate, UITableViewDataSource>
 
 @end
