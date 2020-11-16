@@ -17,7 +17,7 @@
     struct utsname systemInfo;
     uname(&systemInfo);
     NSString *platform = [NSString stringWithCString:systemInfo.machine encoding:NSASCIIStringEncoding];
-    if ([platform isEqualToString:@"i386"] || [platform isEqualToString:@"x86_64"]) {
+    if ([platform isEqualToString:@"i386"]) {
         // judgment by height when in simulators
         return (CGSizeEqualToSize([UIScreen mainScreen].bounds.size, CGSizeMake(375, 812)) ||
                 CGSizeEqualToSize([UIScreen mainScreen].bounds.size, CGSizeMake(812, 375)));
