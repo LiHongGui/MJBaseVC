@@ -563,7 +563,7 @@ static int wrPushDisplayCount = 0;
                 [pThis dealInteractionChanges:context];
             }];
         } else {
-            [coor notifyWhenInteractionEndsUsingBlock:^(id<UIViewControllerTransitionCoordinatorContext>  _Nonnull context) {
+            [coor notifyWhenInteractionChangesUsingBlock:^(id<UIViewControllerTransitionCoordinatorContext>  _Nonnull context) {
                 __strong typeof (self) pThis = weakSelf;
                 [pThis dealInteractionChanges:context];
             }];
