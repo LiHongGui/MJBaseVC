@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
   # 名称，pod search 搜索的关键词
   s.name         = "MJBaseVC"
   # 版本
-  s.version      = "0.0.9"
+  s.version      = "0.1.0"
   # 简介，pod search 搜索的关键词
   s.summary      = "MJBaseVC"
 
