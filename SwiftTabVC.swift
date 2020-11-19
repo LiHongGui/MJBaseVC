@@ -29,11 +29,11 @@ class SwiftTabVC: UITableViewController {
 //        Alamofire.request("https://itunes.apple.com/cn/lookup?id=1534470795",method: .post,parameters: nil).responseJSON { (responseJSON) in
 //            print("responseJSON:\(responseJSON)")
 //        }
-        MJHttpPost(headers: "", UrlString: "https://itunes.apple.com/cn/lookup?id=1534470795", params: nil) { (result) in
-            print("result:\(result)")
-        } failure: { (error) in
-            
-        }
+//        MJHttpPost(headers: "", UrlString: "https://itunes.apple.com/cn/lookup?id=1534470795", params: nil) { (result) in
+//            print("result:\(result)")
+//        } failure: { (error) in
+//
+//        }
 
     }
 //    func postAlamofire(url:String,parameters:[String: Any]?){
