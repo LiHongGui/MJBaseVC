@@ -7,7 +7,7 @@
 
 import UIKit
 
-import Alamofire
+//import Alamofire
 let reuseIdentifierXib = "reuseIdentifierXib"
 class SwiftTabVC: UITableViewController {
 
@@ -36,11 +36,11 @@ class SwiftTabVC: UITableViewController {
         }
 
     }
-    func postAlamofire(url:String,parameters:[String: Any]?){
-        Alamofire.request(url,method: .post,parameters: parameters).responseJSON { (responseJSON) in
-            print("responseJSON:\(responseJSON)")
-        }
-    }
+//    func postAlamofire(url:String,parameters:[String: Any]?){
+//        Alamofire.request(url,method: .post,parameters: parameters).responseJSON { (responseJSON) in
+//            print("responseJSON:\(responseJSON)")
+//        }
+//    }
     
     override func numberOfSections(in tableView: UITableView) -> Int {
         return 1
