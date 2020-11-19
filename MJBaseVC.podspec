@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
   # 名称，pod search 搜索的关键词
   s.name         = "MJBaseVC"
   # 版本
-  s.version      = "0.1.2"
+  s.version      = "0.1.3"
   # 简介，pod search 搜索的关键词
   s.summary      = "MJBaseVC"
 
@@ -15,7 +15,6 @@ Pod::Spec.new do |s|
   s.author             = { "LiHongGui" => "lihonggui1988@outlook.com" }
   # 平台
   s.platform            = :ios, "8.0"
-  s.frameworks =  "Foundation","UIKit"
   # Git仓库地址，例如在Github地址后边加上 .git 就是Git仓库地址
   s.source       = { :git => "https://github.com/LiHongGui/MJBaseVC.git", :tag => s.version.to_s }
   # 需要包含的源文件，常见的写法如下  
