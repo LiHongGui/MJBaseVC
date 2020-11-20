@@ -6,7 +6,6 @@
 //
 
 import UIKit
-
 //import Alamofire
 let reuseIdentifierXib = "reuseIdentifierXib"
 class SwiftTabVC: UITableViewController {
@@ -14,7 +13,7 @@ class SwiftTabVC: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.tableView .register(UITableViewCell.self, forCellReuseIdentifier: "reuseIdentifier")
-        self.tableView.register(UINib.init(nibName: "SwiftXibCell", bundle: nil), forCellReuseIdentifier: reuseIdentifierXib)
+        self.tableView.register(UINib.init(nibName: "SwiftXibCell", bundle: Bundle.main), forCellReuseIdentifier: reuseIdentifierXib)
         loadInternet()
     }
     func loadInternet() {
