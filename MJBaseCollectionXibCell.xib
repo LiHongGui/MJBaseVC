@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
-        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
@@ -23,14 +22,13 @@
                     </button>
                 </subviews>
             </view>
-            <viewLayoutGuide key="safeArea" id="SEy-5g-ep8"/>
             <constraints>
                 <constraint firstAttribute="trailing" secondItem="eKl-X5-fnW" secondAttribute="trailing" id="Ayo-oo-gvy"/>
                 <constraint firstItem="eKl-X5-fnW" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="Jra-13-mN3"/>
                 <constraint firstAttribute="bottom" secondItem="eKl-X5-fnW" secondAttribute="bottom" id="OcO-DZ-fyt"/>
                 <constraint firstItem="eKl-X5-fnW" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="PNg-uq-mZc"/>
             </constraints>
-            <point key="canvasLocation" x="-175" y="100"/>
+            <point key="canvasLocation" x="-368.11594202898556" y="79.6875"/>
         </collectionViewCell>
     </objects>
 </document>
