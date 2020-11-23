@@ -6,7 +6,6 @@
 //
 
 #import "MJBaseTabVC.h"
-#import "WRNavigationBar.h"
 #import "DemoTabVC.h"
 @interface MJBaseTabVC ()<UITableViewDelegate, UITableViewDataSource>
 
@@ -32,7 +31,7 @@
     
     
 }
--(BOOL)setterVC:(Class )setterClass {
+-(BOOL)setterVC:(Class)setterClass {
     BOOL isVC = NO;
     for (UIViewController *vc in self.navigationController.viewControllers) {
         if ([vc isKindOfClass:setterClass]) {

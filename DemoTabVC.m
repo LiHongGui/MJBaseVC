@@ -26,7 +26,7 @@
     [super viewDidLoad];
     self.customNavBar.title = @"Two";
     self.tableView.frame = CGRectMake(0, 0, [UIScreen mainScreen].bounds.size.width, [UIScreen mainScreen].bounds.size.height);
-    
+//    [self sette
 }
 -(void)scrollViewDidScroll:(UIScrollView *)scrollView{
 //    [self.customNavBar wr_setBackgroundAlpha:1];

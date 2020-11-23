@@ -1,0 +1,12 @@
+git add -A && git commit -m "创建版本 0.1.8"
+
+git tag -a 0.1.8 -m "tag release 0.1.8" #打tag
+
+git push --tags #提交tag
+
+git push origin master
+
+
+pod spec lint
+
+pod trunk push MJBaseVC.podspec --allow-warnings
